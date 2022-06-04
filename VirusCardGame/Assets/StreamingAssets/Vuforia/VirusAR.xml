@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="medicina_azul" size="6.000000 9.339246" />
+    <ImageTarget name="medicina_amarilla" size="6.000000 9.373333" />
+    <ImageTarget name="virus_comodin" size="6.000000 9.345133" />
+    <ImageTarget name="transplante" size="6.000000 9.339246" />
+    <ImageTarget name="organo_comodin" size="6.000000 9.324503" />
+    <ImageTarget name="medicina_comodin" size="6.000000 9.324503" />
+    <ImageTarget name="ladron_organos" size="6.000000 9.346666" />
+    <ImageTarget name="hueso" size="6.000000 9.324503" />
+    <ImageTarget name="guante" size="6.000000 9.352550" />
+    <ImageTarget name="Estomago" size="6.000000 9.324503" />
+    <ImageTarget name="error_medico" size="6.000000 9.311258" />
+    <ImageTarget name="corazon" size="6.000000 9.324503" />
+    <ImageTarget name="contagio" size="6.000000 9.324503" />
+    <ImageTarget name="virus_verde" size="6.000000 9.358407" />
+    <ImageTarget name="virus_rojo" size="6.000000 9.324503" />
+    <ImageTarget name="virus_azul" size="6.000000 9.324503" />
+    <ImageTarget name="medicina_verde" size="6.000000 9.352550" />
+    <ImageTarget name="virus_amarillo" size="6.000000 9.324503" />
+    <ImageTarget name="medicina_roja" size="6.000000 9.337749" />
+    <ImageTarget name="CerebroJPEG" size="6.000000 9.350993" />
+  </Tracking>
+</QCARConfig>
