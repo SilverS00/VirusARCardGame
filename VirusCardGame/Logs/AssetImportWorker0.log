@@ -244,3 +244,27 @@ Received Import Request.
 Start importing Assets/StreamingAssets using Guid(d7a92a13f9e364ca88426bedcf613e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feb39b63acaaa5aec077dfc7721902b3') in 0.246498 seconds 
   Import took 0.321112 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 4495.195300 seconds.
+  path: Assets/StreamingAssets/Vuforia
+  artifactKey: Guid(e1dad7896172e4a53b3ddf167db4b1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/Vuforia using Guid(e1dad7896172e4a53b3ddf167db4b1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '259e2808598013a4b138b472baf3e321') in 0.046841 seconds 
+  Import took 0.150094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.801482 seconds.
+  path: Assets/StreamingAssets/Vuforia/VirusAR.xml
+  artifactKey: Guid(58fc3b2a9c0d41fc9e87c73ef9d4aa10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/Vuforia/VirusAR.xml using Guid(58fc3b2a9c0d41fc9e87c73ef9d4aa10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13f9545932dcfa3fcae82f98b2523c21') in 3.925994 seconds 
+  Import took 3.988211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004053 seconds.
+  path: Assets/StreamingAssets/Vuforia/VirusAR.dat
+  artifactKey: Guid(3a912aa902f64b7481c207805b26f001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/Vuforia/VirusAR.dat using Guid(3a912aa902f64b7481c207805b26f001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '429bc1723946a904d54b16b679b4cabe') in 0.357031 seconds 
+  Import took 0.397443 seconds .
+
