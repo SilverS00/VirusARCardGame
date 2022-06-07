@@ -220,3 +220,27 @@ Received Import Request.
 Start importing Assets/Textures using Guid(73dc4f9811a8a40399313ce6e25b1c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2502dccca3dfdff03347d409fcfc6c33') in 0.001048 seconds 
   Import took 0.051524 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 1389.070594 seconds.
+  path: Assets/Resources/VuforiaConfiguration.asset
+  artifactKey: Guid(365681c451d2a45cc9832a1ce413715a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaConfiguration.asset using Guid(365681c451d2a45cc9832a1ce413715a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed0532ebb3f28810ebc8924016983e80') in 3.230887 seconds 
+  Import took 3.316667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 756.527961 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(1ef9ca3ac32c04c1894b4ff94069efe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(1ef9ca3ac32c04c1894b4ff94069efe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f87495f627a23ebb516a8d8d0e27e6d') in 0.029479 seconds 
+  Import took 0.088888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 110.383238 seconds.
+  path: Assets/StreamingAssets
+  artifactKey: Guid(d7a92a13f9e364ca88426bedcf613e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets using Guid(d7a92a13f9e364ca88426bedcf613e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feb39b63acaaa5aec077dfc7721902b3') in 0.246498 seconds 
+  Import took 0.321112 seconds .
+

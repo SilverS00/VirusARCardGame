@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{58F052A2-7004-EF46-A4BE-C3BCA50CD5EF}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Library/PackageCache/com.ptc.vuforia.engine@a6e50d24ffe5-1651659477000/Vuforia/Scripts/DefaultObserverEventHandler.cs">
+    <Files>
+      <File FileName="Library/PackageCache/com.ptc.vuforia.engine@a6e50d24ffe5-1651659477000/Vuforia/Scripts/DefaultObserverEventHandler.cs" Line="75" Column="6" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp-Editor PreferredExecutionTarget="a1f4de12-43a9-44a7-b2f1-576fb9c2b297" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
