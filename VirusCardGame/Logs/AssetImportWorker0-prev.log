@@ -1,92 +1,83 @@
-Unity Editor version:    2020.3.22f1 (e1a7f79fd887)
-Branch:                  2020.3/staging
-Build type:              Release
-Batch mode:              YES
-macOS version:           Version 10.15.7 (Build 19H1715)
-Darwin version:          19.6.0
-Architecture:            x86_64
-Running under Rosetta:   NO
-Available memory:        8192 MB
 Using pre-set license
-Pro License: NO
+Built from '2020.3/staging' branch; Version is '2020.3.22f1 (e1a7f79fd887) revision 14788599'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 19044.1706; Version 2009; 64bit' Language: 'es' Physical Memory: 16233 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-/Applications/Unity/Hub/Editor/2020.3.22f1/Unity.app/Contents/MacOS/Unity
+C:\Program Files\Unity\Hub\Editor\2020.3.22f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-/Users/SilverShield/Documents/GitHub/VirusARCardGame/VirusCardGame
+C:/Users/vilch/OneDrive/Documentos/GitHub/VirusARCardGame/VirusCardGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50116
-Successfully changed project path to: /Users/SilverShield/Documents/GitHub/VirusARCardGame/VirusCardGame
-/Users/SilverShield/Documents/GitHub/VirusARCardGame/VirusCardGame
+57066
+Successfully changed project path to: C:/Users/vilch/OneDrive/Documentos/GitHub/VirusARCardGame/VirusCardGame
+C:/Users/vilch/OneDrive/Documentos/GitHub/VirusARCardGame/VirusCardGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 315.85 ms, found 6 plugins.
-Preloading 3 native plugins for Editor in 20.89 ms.
+Refreshing native plugins compatible for Editor in 60.47 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 3.94 ms.
 Initialize engine version: 2020.3.22f1 (e1a7f79fd887)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.22f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/SilverShield/Documents/GitHub/VirusARCardGame/VirusCardGame/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/vilch/OneDrive/Documentos/GitHub/VirusARCardGame/VirusCardGame/Assets
 GfxDevice: creating device client; threaded=0
-2022-06-07 10:19:09.787 Unity[2561:33589] iMac preferred device: Intel Iris Pro Graphics (low power)
-2022-06-07 10:19:09.787 Unity[2561:33589] Metal devices available: 1
-2022-06-07 10:19:09.787 Unity[2561:33589] 0: Intel Iris Pro Graphics (low power)
-2022-06-07 10:19:09.820 Unity[2561:33589] Using device Intel Iris Pro Graphics (low power)
-Initializing Metal device caps: Intel Iris Pro Graphics
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2191)
+    Vendor:   
+    VRAM:     5991 MB
+    Driver:   30.0.15.1165
 Initialize mono
-Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.22f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.22f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = '/Applications/Unity/Hub/Editor/2020.3.22f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56561
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56600
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Hub/Editor/2020.3.22f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Register platform support module: /Applications/Unity/Hub/Editor/2020.3.22f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.054493 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004398 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 44.61 ms, found 6 plugins.
-Preloading 3 native plugins for Editor in 6.66 ms.
+Refreshing native plugins compatible for Editor in 40.89 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.16 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.974 seconds
+- Completed reload, in  3.533 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3974ms)
-		BeginReloadAssembly (79ms)
+	ReloadAssembly (3533ms)
+		BeginReloadAssembly (74ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (854ms)
-			LoadAssemblies (102ms)
+		EndReloadAssembly (517ms)
+			LoadAssemblies (69ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (276ms)
+			SetupTypeCache (168ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (383ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (196ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (51ms)
-				BeforeProcessingInitializeOnLoad (99ms)
-				ProcessInitializeOnLoadAttributes (143ms)
-				ProcessInitializeOnLoadMethodAttributes (83ms)
+				RefreshPlugins (41ms)
+				BeforeProcessingInitializeOnLoad (20ms)
+				ProcessInitializeOnLoadAttributes (96ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.213699 seconds.
+Registered in 0.018795 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 6 plugins.
-Preloading 3 native plugins for Editor in 6.86 ms.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.16 ms.
 System.NullReferenceException: Object reference not set to an instance of an object
   at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <fa936954903d455ab607cdebc0675fa6>:0 
   at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <fa936954903d455ab607cdebc0675fa6>:0 
@@ -94,13 +85,11 @@ System.NullReferenceException: Object reference not set to an instance of an obj
   at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <fa936954903d455ab607cdebc0675fa6>:0 
   at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <fa936954903d455ab607cdebc0675fa6>:0 
   at VuforiaEnabledObserver..cctor () [0x00000] in <fa936954903d455ab607cdebc0675fa6>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
 UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:138)
-
-(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 138)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 System.NullReferenceException: Object reference not set to an instance of an object
   at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <fa936954903d455ab607cdebc0675fa6>:0 
@@ -109,162 +98,268 @@ System.NullReferenceException: Object reference not set to an instance of an obj
   at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <fa936954903d455ab607cdebc0675fa6>:0 
   at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <fa936954903d455ab607cdebc0675fa6>:0 
   at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <fa936954903d455ab607cdebc0675fa6>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
 UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:138)
-
-(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 138)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.299 seconds
+- Completed reload, in  1.302 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2328ms)
-		BeginReloadAssembly (232ms)
+	ReloadAssembly (1303ms)
+		BeginReloadAssembly (188ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (48ms)
-		EndReloadAssembly (2003ms)
-			LoadAssemblies (559ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1043ms)
+			LoadAssemblies (134ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (493ms)
+			SetupTypeCache (368ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (78ms)
-			SetupLoadedEditorAssemblies (689ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (408ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (8ms)
-				BeforeProcessingInitializeOnLoad (117ms)
-				ProcessInitializeOnLoadAttributes (367ms)
-				ProcessInitializeOnLoadMethodAttributes (187ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (276ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.001079 seconds.
-Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.001394 seconds.
-Application.AssetDatabase Initial Script Refresh Start
-RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
-RefreshProfiler: Total: 0.000ms
-Application.AssetDatabase Initial Script Refresh End
-Application.AssetDatabase.Refresh Start
-Application.AssetDatabase.Refresh End
-RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Launching external process: /Applications/Unity/Hub/Editor/2020.3.22f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.19 seconds
-Initializing Unity extensions:
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.84 ms, found 6 plugins.
-Preloading 3 native plugins for Editor in 6.82 ms.
-Unloading 1541 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 178.6 MB.
-System memory in use after: 177.7 MB.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.60 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.18 ms.
+Unloading 1540 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.9 MB.
+System memory in use after: 73.0 MB.
 
-Unloading 111 unused Assets to reduce memory usage. Loaded Objects now: 2295.
-Total: 4.372441 ms (FindLiveObjects: 0.228991 ms CreateObjectMapping: 0.066404 ms MarkObjects: 3.422101 ms  DeleteObjects: 0.653803 ms)
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 2255.
+Total: 3.956100 ms (FindLiveObjects: 0.193100 ms CreateObjectMapping: 0.052200 ms MarkObjects: 3.604700 ms  DeleteObjects: 0.104900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/VirusAR/medicina_roja_scaled.jpg
+  artifactKey: Guid(062941d27d7c4b9e9954c6eb4f1c087f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/VirusAR/medicina_roja_scaled.jpg using Guid(062941d27d7c4b9e9954c6eb4f1c087f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceb2448b290f010e2a11337f03c2b5e0') in 0.149087 seconds 
+  Import took 0.152091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000635 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/VirusAR/organo_comodin_scaled.jpg
+  artifactKey: Guid(8150fc13a42d4e6ba2a4d6631a4f2633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/VirusAR/organo_comodin_scaled.jpg using Guid(8150fc13a42d4e6ba2a4d6631a4f2633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd40b8ea2c237181ce0970e6511d8388b') in 0.025892 seconds 
+  Import took 0.029782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000683 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/VirusAR/hueso_scaled.jpg
+  artifactKey: Guid(f44cded7e4ea4de1bf5ce1c0f9d28a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/VirusAR/hueso_scaled.jpg using Guid(f44cded7e4ea4de1bf5ce1c0f9d28a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e33f0a0c38006d34da9468e66692960') in 0.020783 seconds 
+  Import took 0.024634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000557 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/VirusAR/error_medico_scaled.jpg
+  artifactKey: Guid(a56ea34697744d7ea633f54b1d3a538c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/VirusAR/error_medico_scaled.jpg using Guid(a56ea34697744d7ea633f54b1d3a538c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7307fac3d117be0a0fefb5351139f207') in 0.025341 seconds 
+  Import took 0.028697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/VirusAR/guante_scaled.jpg
+  artifactKey: Guid(af8951641b1e4a80a70af4c1f59a42f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/VirusAR/guante_scaled.jpg using Guid(af8951641b1e4a80a70af4c1f59a42f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6593c99d5982573ed3133e0380fd788') in 0.026352 seconds 
+  Import took 0.029543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/VirusAR/medicina_amarilla_scaled.jpg
+  artifactKey: Guid(16d6a6fc88694d28b79584a874b38c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/VirusAR/medicina_amarilla_scaled.jpg using Guid(16d6a6fc88694d28b79584a874b38c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ae345bfbfa2bc228a507c3b8d12fd2') in 0.027636 seconds 
+  Import took 0.031033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000457 seconds.
   path: Assets/Editor
   artifactKey: Guid(833e12f1d550f2c4b96eb6fa3a5ea199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor using Guid(833e12f1d550f2c4b96eb6fa3a5ea199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d6a53448df94d91551c750326bfb46c') in 0.077772 seconds 
-  Import took 0.165203 seconds .
+Start importing Assets/Editor using Guid(833e12f1d550f2c4b96eb6fa3a5ea199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d6a53448df94d91551c750326bfb46c') in 0.006104 seconds 
+  Import took 0.009276 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.096614 seconds.
-  path: Assets/Models
-  artifactKey: Guid(b83cc0811734241e2a48d6b9366cb4bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models using Guid(b83cc0811734241e2a48d6b9366cb4bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05fa214ab14f6121e2c2a6606ddfc893') in 0.002120 seconds 
-  Import took 0.026588 seconds .
+  Time since last request: 0.000988 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures
+  artifactKey: Guid(7e6e3309bf30e4b4f8a1fe1d5c677524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures using Guid(7e6e3309bf30e4b4f8a1fe1d5c677524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33bdfa68929090a13f1ee4cc5bce015e') in 0.010129 seconds 
+  Import took 0.014513 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.324842 seconds.
-  path: Assets/Images
-  artifactKey: Guid(73dc4f9811a8a40399313ce6e25b1c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images using Guid(73dc4f9811a8a40399313ce6e25b1c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82af68627a1cad7a8fb0c75ef8cf5206') in 0.001831 seconds 
-  Import took 0.051810 seconds .
+  Time since last request: 0.000640 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/VirusAR/Estomago_scaled.jpg
+  artifactKey: Guid(013dea7909fd407198b7f0d3688b0782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/VirusAR/Estomago_scaled.jpg using Guid(013dea7909fd407198b7f0d3688b0782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f3e88a9104769a7fba08dd3ca2e626e') in 0.027724 seconds 
+  Import took 0.033003 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.864355 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(58fbff050ca064262a408a711e3c3c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(58fbff050ca064262a408a711e3c3c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1c3b272d1230fd984cc328068d76a9d') in 0.001164 seconds 
-  Import took 0.024872 seconds .
+  Time since last request: 0.000924 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/VirusAR/transplante_scaled.jpg
+  artifactKey: Guid(33a849e9e21943bface8bcaac35d17e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/VirusAR/transplante_scaled.jpg using Guid(33a849e9e21943bface8bcaac35d17e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '004e6e6ca5794e76bf752bfe4839b479') in 0.026190 seconds 
+  Import took 0.031645 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.187575 seconds.
-  path: Assets/Textures
-  artifactKey: Guid(73dc4f9811a8a40399313ce6e25b1c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures using Guid(73dc4f9811a8a40399313ce6e25b1c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2502dccca3dfdff03347d409fcfc6c33') in 0.001048 seconds 
-  Import took 0.051524 seconds .
+  Time since last request: 0.001251 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/VirusAR/CerebroJPEG_scaled.jpg
+  artifactKey: Guid(9a50752a618b43d7b1bb7c89cc3d5163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/VirusAR/CerebroJPEG_scaled.jpg using Guid(9a50752a618b43d7b1bb7c89cc3d5163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10aac3b2c857320dea5bfdb102b60c70') in 0.021647 seconds 
+  Import took 0.026167 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1389.070594 seconds.
+  Time since last request: 0.000499 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/VirusAR/virus_amarillo_scaled.jpg
+  artifactKey: Guid(cfa1b542c98543818f7ceb2bde4f282f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/VirusAR/virus_amarillo_scaled.jpg using Guid(cfa1b542c98543818f7ceb2bde4f282f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b55f41e7928ca704ee096476ca44f5c') in 0.025747 seconds 
+  Import took 0.029029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000465 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/VirusAR/virus_rojo_scaled.jpg
+  artifactKey: Guid(7a972407dc9b4acfb2ea5a5ebcb56234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/VirusAR/virus_rojo_scaled.jpg using Guid(7a972407dc9b4acfb2ea5a5ebcb56234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '253cb28424d551dab72d86d54924b0b7') in 0.023920 seconds 
+  Import took 0.028559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000553 seconds.
+  path: Assets/Editor/Vuforia
+  artifactKey: Guid(49ff623d4972b4d8e894df61c0921793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia using Guid(49ff623d4972b4d8e894df61c0921793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc2e188e6b2199aad49c71dc3e2c64db') in 0.008270 seconds 
+  Import took 0.011807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000755 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/VirusAR/ladron_organos_scaled.jpg
+  artifactKey: Guid(9b3fdde677b84f1181453c3666cd72a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/VirusAR/ladron_organos_scaled.jpg using Guid(9b3fdde677b84f1181453c3666cd72a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8a9ab5f2409ad05735aa1f6ef7e1903') in 0.025168 seconds 
+  Import took 0.031442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000847 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/VirusAR/contagio_scaled.jpg
+  artifactKey: Guid(882b74c2c8e343c8aee16b972d34e129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/VirusAR/contagio_scaled.jpg using Guid(882b74c2c8e343c8aee16b972d34e129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92c8c5a0c0b2fc36d167a0e02be8a910') in 0.026027 seconds 
+  Import took 0.030499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000704 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/VirusAR
+  artifactKey: Guid(afde0036234d7439398582668a72ebc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/VirusAR using Guid(afde0036234d7439398582668a72ebc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b0387cdedf0152eb72d34dda6ecb237') in 0.011471 seconds 
+  Import took 0.014484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000439 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/VirusAR/virus_comodin_scaled.jpg
+  artifactKey: Guid(4902b6ddebe44157903584fc715be831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/VirusAR/virus_comodin_scaled.jpg using Guid(4902b6ddebe44157903584fc715be831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edcaf622ca0c1e1d89b48228eddfe195') in 0.028893 seconds 
+  Import took 0.031212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000439 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/VirusAR/corazon_scaled.jpg
+  artifactKey: Guid(9f47fff0e15248eca83104ddcce4bf57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/VirusAR/corazon_scaled.jpg using Guid(9f47fff0e15248eca83104ddcce4bf57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a261e692e20a2048cf3b5dbf3a7562') in 0.026810 seconds 
+  Import took 0.031243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000550 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/VirusAR/medicina_comodin_scaled.jpg
+  artifactKey: Guid(19065625cb5247299fbcb90f13b0a68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/VirusAR/medicina_comodin_scaled.jpg using Guid(19065625cb5247299fbcb90f13b0a68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '665da5d31617b6bc9c0bfd7d9b211a8f') in 0.028990 seconds 
+  Import took 0.032728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000464 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/VirusAR/virus_verde_scaled.jpg
+  artifactKey: Guid(db68f6e5f4ec4e9ebc1677ba1df7e252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/VirusAR/virus_verde_scaled.jpg using Guid(db68f6e5f4ec4e9ebc1677ba1df7e252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e909875f50be2991279b3955ba1b9d9') in 0.026572 seconds 
+  Import took 0.029423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001251 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/VirusAR/medicina_verde_scaled.jpg
+  artifactKey: Guid(ed9bfe16dc884f9585e80a6774836b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/VirusAR/medicina_verde_scaled.jpg using Guid(ed9bfe16dc884f9585e80a6774836b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cd5be9a44f88414d36f8e8d1fda89ec') in 0.023734 seconds 
+  Import took 0.027745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001073 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/VirusAR/medicina_azul_scaled.jpg
+  artifactKey: Guid(397e1a7c9603469c9061070f1bdb833f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/VirusAR/medicina_azul_scaled.jpg using Guid(397e1a7c9603469c9061070f1bdb833f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b069fed77fe354915edbfa769eba17b') in 0.021905 seconds 
+  Import took 0.025384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000798 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/VirusAR/virus_azul_scaled.jpg
+  artifactKey: Guid(52fa0532295e4be8a52a745267f17abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/VirusAR/virus_azul_scaled.jpg using Guid(52fa0532295e4be8a52a745267f17abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b339c48d9094e93dffe09e7f1e3c891') in 0.021910 seconds 
+  Import took 0.025273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.708620 seconds.
+  path: Assets/Scenes/AR.unity
+  artifactKey: Guid(772325a354f7044328d99450e09217f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/AR.unity using Guid(772325a354f7044328d99450e09217f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b21e77f2174a13279785ec6ffdfd7c61') in 0.007473 seconds 
+  Import took 0.011784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.446033 seconds.
   path: Assets/Resources/VuforiaConfiguration.asset
   artifactKey: Guid(365681c451d2a45cc9832a1ce413715a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/VuforiaConfiguration.asset using Guid(365681c451d2a45cc9832a1ce413715a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed0532ebb3f28810ebc8924016983e80') in 3.230887 seconds 
-  Import took 3.316667 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 756.527961 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(1ef9ca3ac32c04c1894b4ff94069efe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(1ef9ca3ac32c04c1894b4ff94069efe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f87495f627a23ebb516a8d8d0e27e6d') in 0.029479 seconds 
-  Import took 0.088888 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 110.383238 seconds.
-  path: Assets/StreamingAssets
-  artifactKey: Guid(d7a92a13f9e364ca88426bedcf613e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StreamingAssets using Guid(d7a92a13f9e364ca88426bedcf613e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feb39b63acaaa5aec077dfc7721902b3') in 0.246498 seconds 
-  Import took 0.321112 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4495.195300 seconds.
-  path: Assets/StreamingAssets/Vuforia
-  artifactKey: Guid(e1dad7896172e4a53b3ddf167db4b1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StreamingAssets/Vuforia using Guid(e1dad7896172e4a53b3ddf167db4b1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '259e2808598013a4b138b472baf3e321') in 0.046841 seconds 
-  Import took 0.150094 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.801482 seconds.
-  path: Assets/StreamingAssets/Vuforia/VirusAR.xml
-  artifactKey: Guid(58fc3b2a9c0d41fc9e87c73ef9d4aa10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StreamingAssets/Vuforia/VirusAR.xml using Guid(58fc3b2a9c0d41fc9e87c73ef9d4aa10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13f9545932dcfa3fcae82f98b2523c21') in 3.925994 seconds 
-  Import took 3.988211 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004053 seconds.
-  path: Assets/StreamingAssets/Vuforia/VirusAR.dat
-  artifactKey: Guid(3a912aa902f64b7481c207805b26f001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StreamingAssets/Vuforia/VirusAR.dat using Guid(3a912aa902f64b7481c207805b26f001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '429bc1723946a904d54b16b679b4cabe') in 0.357031 seconds 
-  Import took 0.397443 seconds .
+Start importing Assets/Resources/VuforiaConfiguration.asset using Guid(365681c451d2a45cc9832a1ce413715a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed0532ebb3f28810ebc8924016983e80') in 0.017422 seconds 
+  Import took 0.021823 seconds .
 
