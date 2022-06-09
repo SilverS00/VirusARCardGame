@@ -1,12 +1,8 @@
 ﻿<Properties StartupConfiguration="{E9EB904D-3809-F9CA-F448-47C3B0729632}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ActivateEffects.cs">
-    <Files>
-      <File FileName="Library/PackageCache/com.ptc.vuforia.engine@a6e50d24ffe5-1651659477000/Vuforia/Scripts/DefaultObserverEventHandler.cs" Line="24" Column="17" />
-      <File FileName="Assets/Scripts/ActivateEffects.cs" Line="20" Column="1" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="dfb5c3b1-45d9-47a9-9f4a-ac18ce7544b1" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
