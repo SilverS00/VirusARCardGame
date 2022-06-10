@@ -10,10 +10,11 @@ public class Menu_Inicial : MonoBehaviour
 
     public void Jugar()
     {
-
-    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1); 
+        SceneManager.LoadScene(1);
     }
         public void salir()
+
+
     {
         print("salir del juego");
 

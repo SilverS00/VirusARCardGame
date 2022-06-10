@@ -4,33 +4,37 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class Menu_Juego : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [SerializeField] GameObject pauseMenu;
+    [SerializeField] GameObject UI;
+
+    private void Start()
+    {
+        pauseMenu.SetActive(false);
+        UI.SetActive(true);
+    }
+
+
+
     public void Volver()
     {
-
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        pauseMenu.SetActive(false);
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(0);
     }
 
-    bool isPaused = false;
 
-
-    public void Pausa()
+    public void Pause()
     {
-
-        if(isPaused)
-        {
-            Time.timeScale = 1;
-            isPaused = false;
-        }
-
-        else
-        {
-            Time.timeScale = 0;
-            isPaused = true;
-        }
-
-        print("Juego en pausa");
+        UI.SetActive(false);
+        pauseMenu.SetActive(true);
+        Time.timeScale = 0f;
     }
 
+    public void Continue()
+    {
+        pauseMenu.SetActive(false);
+        UI.SetActive(true);
+        Time.timeScale = 1f;
+    }
 
 }

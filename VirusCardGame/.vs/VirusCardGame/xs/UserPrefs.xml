@@ -1,5 +1,10 @@
 ﻿<Properties StartupConfiguration="{E9EB904D-3809-F9CA-F448-47C3B0729632}|">
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Menu_Inicial.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Menu_Juego.cs" Line="17" Column="1" />
+      <File FileName="Assets/Scripts/Menu_Inicial.cs" Line="10" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="dfb5c3b1-45d9-47a9-9f4a-ac18ce7544b1" />
