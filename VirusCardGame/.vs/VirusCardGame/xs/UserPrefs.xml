@@ -1,13 +1,14 @@
 ﻿<Properties StartupConfiguration="{E9EB904D-3809-F9CA-F448-47C3B0729632}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Menu_Inicial.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ChangeState.cs">
     <Files>
-      <File FileName="Assets/Scripts/Menu_Juego.cs" Line="17" Column="1" />
-      <File FileName="Assets/Scripts/Menu_Inicial.cs" Line="10" Column="1" />
+      <File FileName="Assets/Scripts/OrgansOnBody.cs" Line="20" Column="1" />
+      <File FileName="../../Proyecto-Smith/Assets/Scripts/Battle/StateMachine/BattleStateMachine.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/ChangeState.cs" Line="7" Column="5" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="dfb5c3b1-45d9-47a9-9f4a-ac18ce7544b1" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="61179ae3-bc4f-44f0-9750-c1585facb83e" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
