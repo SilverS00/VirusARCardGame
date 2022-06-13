@@ -9,6 +9,7 @@ public class WinCondition : MonoBehaviour
     public int Score;
     public Text ScoreText;
     [SerializeField] GameObject youWin;
+    [SerializeField] AudioSource winSong;
 
     private void Start()
     {
@@ -24,7 +25,8 @@ public class WinCondition : MonoBehaviour
 
     IEnumerator YouWin()
     {
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(2f);
+        winSong.Play();
         youWin.SetActive(true);
         Time.timeScale = 0f;
 
