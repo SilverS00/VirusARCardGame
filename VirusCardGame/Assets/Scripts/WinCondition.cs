@@ -16,17 +16,20 @@ public class WinCondition : MonoBehaviour
     }
     private void Update()
     {
-        if (Score >= 5)
+        if (Score >= 4)
         {
-            YouWin();
+            StartCoroutine(YouWin());
         }
     }
 
-    void YouWin()
+    IEnumerator YouWin()
     {
+        yield return new WaitForSeconds(3f);
         youWin.SetActive(true);
         Time.timeScale = 0f;
+
     }
+    
 
     public void Volver()
     {
@@ -38,7 +41,7 @@ public class WinCondition : MonoBehaviour
     public void AddScore()
     {
         Score++;
-        ScoreText.text = Score + "/5";
+        ScoreText.text = Score + "/4";
 
     }
 }

@@ -60,7 +60,7 @@ public class ChangeState : MonoBehaviour
         }
         else if (morido == false)
         {
-            if(medicina == true)
+            if(medicina == true && protegido == false)
             {
                 Inmune();
             }
@@ -103,16 +103,15 @@ public class ChangeState : MonoBehaviour
         organRenderer.material.mainTexture = textures[1];
 
         yield return new WaitForSeconds(.5f);
-        protegido = true;
         inmunizarLoop.SetActive(false);
+        protegido = true;
 
-      
     }
 
 
     public void VirusVisto()
     {
-        if (virus == false)
+        if (virus == false && protegido == false)
         {
             Infectar();
         }
@@ -160,9 +159,8 @@ public class ChangeState : MonoBehaviour
         organRenderer.material.mainTexture = textures[2];
 
         yield return new WaitForSeconds(.5f);
-        morido = true;
         infectarLoop.SetActive(false);
-
+        morido = true;
 
         yield return new WaitForSeconds(5f);
         BaseForm();

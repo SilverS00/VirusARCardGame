@@ -22,24 +22,24 @@ AssetImportWorker17
 -logFile
 Logs/AssetImportWorker17.log
 -srvPort
-56576
+49708
 Successfully changed project path to: /Users/SilverShield/Documents/GitHub/VirusARCardGame/VirusCardGame
 /Users/SilverShield/Documents/GitHub/VirusARCardGame/VirusCardGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 915.67 ms, found 6 plugins.
-Preloading 3 native plugins for Editor in 124.67 ms.
+Refreshing native plugins compatible for Editor in 3388.50 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 196.60 ms.
 Initialize engine version: 2020.3.22f1 (e1a7f79fd887)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.22f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/SilverShield/Documents/GitHub/VirusARCardGame/VirusCardGame/Assets
 GfxDevice: creating device client; threaded=0
-2022-06-12 23:00:20.916 Unity[11321:257655] iMac preferred device: Intel Iris Pro Graphics (low power)
-2022-06-12 23:00:20.917 Unity[11321:257655] Metal devices available: 1
-2022-06-12 23:00:20.917 Unity[11321:257655] 0: Intel Iris Pro Graphics (low power)
-2022-06-12 23:00:20.917 Unity[11321:257655] Using device Intel Iris Pro Graphics (low power)
+2022-06-13 11:13:59.577 Unity[2869:40961] iMac preferred device: Intel Iris Pro Graphics (low power)
+2022-06-13 11:13:59.578 Unity[2869:40961] Metal devices available: 1
+2022-06-13 11:13:59.578 Unity[2869:40961] 0: Intel Iris Pro Graphics (low power)
+2022-06-13 11:13:59.578 Unity[2869:40961] Using device Intel Iris Pro Graphics (low power)
 Initializing Metal device caps: Intel Iris Pro Graphics
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.22f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.22f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.22f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56321
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56869
 Begin MonoManager ReloadAssembly
