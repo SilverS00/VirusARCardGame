@@ -16,30 +16,29 @@ COMMAND LINE ARGUMENTS:
 -batchMode
 -noUpm
 -name
-AssetImportWorker23
+AssetImportWorker13
 -projectPath
 /Users/SilverShield/Documents/GitHub/VirusARCardGame/VirusCardGame
 -logFile
-Logs/AssetImportWorker23.log
+Logs/AssetImportWorker13.log
 -srvPort
-49708
+56932
 Successfully changed project path to: /Users/SilverShield/Documents/GitHub/VirusARCardGame/VirusCardGame
 /Users/SilverShield/Documents/GitHub/VirusARCardGame/VirusCardGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 794.71 ms, found 6 plugins.
-Preloading 3 native plugins for Editor in 60.91 ms.
+Refreshing native plugins compatible for Editor in 8673.40 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 533.45 ms.
 Initialize engine version: 2020.3.22f1 (e1a7f79fd887)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.22f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/SilverShield/Documents/GitHub/VirusARCardGame/VirusCardGame/Assets
 GfxDevice: creating device client; threaded=0
-2022-06-13 12:27:03.367 Unity[3660:66111] iMac preferred device: Intel Iris Pro Graphics (low power)
-2022-06-13 12:27:03.367 Unity[3660:66111] Metal devices available: 1
-2022-06-13 12:27:03.367 Unity[3660:66111] 0: Intel Iris Pro Graphics (low power)
-2022-06-13 12:27:03.400 Unity[3660:66111] Using device Intel Iris Pro Graphics (low power)
+2022-06-15 20:12:03.086 Unity[9205:180151] iMac preferred device: Intel Iris Pro Graphics (low power)
+2022-06-15 20:12:03.086 Unity[9205:180151] Metal devices available: 1
+2022-06-15 20:12:03.086 Unity[9205:180151] 0: Intel Iris Pro Graphics (low power)
+2022-06-15 20:12:03.087 Unity[9205:180151] Using device Intel Iris Pro Graphics (low power)
 Initializing Metal device caps: Intel Iris Pro Graphics
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.22f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.22f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.22f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56660
-Begin MonoManager ReloadAssembly
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56205

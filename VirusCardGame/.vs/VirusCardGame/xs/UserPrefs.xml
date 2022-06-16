@@ -1,13 +1,14 @@
 ﻿<Properties StartupConfiguration="{E9EB904D-3809-F9CA-F448-47C3B0729632}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/WinCondition.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ChangeState.cs">
     <Files>
-      <File FileName="Assets/Scripts/ChangeState.cs" Line="111" Column="1" />
+      <File FileName="Assets/Scripts/ChangeState.cs" Line="41" Column="1" />
       <File FileName="Assets/Scripts/WinCondition.cs" Line="16" Column="33" />
+      <File FileName="Assets/Scripts/OrgansOnBody.cs" Line="16" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="08a99be9-22cd-46dc-b318-613ca4a924b4" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="ae53117f-d0bb-4253-af31-8792695a8d68" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -22,18 +22,24 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50124
+56932
 Successfully changed project path to: /Users/SilverShield/Documents/GitHub/VirusARCardGame/VirusCardGame
 /Users/SilverShield/Documents/GitHub/VirusARCardGame/VirusCardGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 12291.21 ms, found 6 plugins.
-Preloading 3 native plugins for Editor in 129.45 ms.
+Refreshing native plugins compatible for Editor in 1866.56 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 78.01 ms.
 Initialize engine version: 2020.3.22f1 (e1a7f79fd887)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.22f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/SilverShield/Documents/GitHub/VirusARCardGame/VirusCardGame/Assets
 GfxDevice: creating device client; threaded=0
-2022-06-13 17:51:34.570 Unity[2686:37845] iMac preferred device: Intel Iris Pro Graphics (low power)
-2022-06-13 17:51:34.570 Unity[2686:37845] Metal devices available: 1
-2022-06-13 17:51:34.570 Unity[2686:37845] 0: Intel Iris Pro Graphics (low power)
-2022-06-13 17:51:34.571 Unity[2686:37845] Using device Intel Iris Pro Graphics (low power)
+2022-06-15 20:05:13.735 Unity[9126:176935] iMac preferred device: Intel Iris Pro Graphics (low power)
+2022-06-15 20:05:13.735 Unity[9126:176935] Metal devices available: 1
+2022-06-15 20:05:13.735 Unity[9126:176935] 0: Intel Iris Pro Graphics (low power)
+2022-06-15 20:05:13.736 Unity[9126:176935] Using device Intel Iris Pro Graphics (low power)
 Initializing Metal device caps: Intel Iris Pro Graphics
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.22f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.22f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.22f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56126
+Begin MonoManager ReloadAssembly

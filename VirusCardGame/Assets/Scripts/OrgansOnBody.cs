@@ -14,20 +14,6 @@ public class OrgansOnBody : MonoBehaviour
         organOnBody = false;
     }
 
-    private void Update()
-    {
-        if (Input.GetKey(KeyCode.E))
-        {
-            OrganInBody();
-        }
-
-        if (Input.GetKey(KeyCode.R))
-        {
-            Dead();
-        }
-    }
-
-
     public void OrganInBody()
     {
         organ.SetActive(true);

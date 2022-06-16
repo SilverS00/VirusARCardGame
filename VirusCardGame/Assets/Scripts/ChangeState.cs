@@ -37,20 +37,7 @@ public class ChangeState : MonoBehaviour
         protegido = false;
         morido = false;
         organRenderer.material.mainTexture = textures[0];
-    }
-
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Q))
-        {
-            MedicinaVista();
-        }
-
-        if(Input.GetKey(KeyCode.W))
-        {
-           VirusVisto();
-        }
-    }
+    }  
 
     public void MedicinaVista()
     {
